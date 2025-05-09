@@ -70,7 +70,7 @@ A responsive, single-page marketing website for SoftSell, a fictional software l
 
 ## Technologies Used
 
-- **Next.js 13**: React framework with file-based routing
+- **Next.js 15**: React framework with file-based routing
 - **TypeScript**: For type safety and better developer experience
 - **Tailwind CSS**: For utility-first styling
 - **shadcn/ui**: For consistent, accessible UI components
@@ -110,10 +110,10 @@ A responsive, single-page marketing website for SoftSell, a fictional software l
 - Smooth scrolling implementation (0.25 hour)
 - Cross-browser testing and fixes (0.25 hour)
 
-### Refinement (1 hour)
-- Performance optimization (0.25 hour)
-- Accessibility improvements (0.25 hour)
-- Code refactoring and documentation (0.5 hour)
+### Refinement (3 hours)
+- Performance optimization (1 hour)
+- Accessibility improvements (0.5 hour)
+- Code refactoring and documentation (1.5 hour)
 
 **Total Time**: Approximately 12 hours
 
@@ -121,7 +121,7 @@ A responsive, single-page marketing website for SoftSell, a fictional software l
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/softsell.git
+   git clone https://github.com/Harshith-10/softsell.git
    cd softsell
    ```
 
@@ -146,12 +146,7 @@ npm run build
 This will generate an optimized build that can be deployed to any hosting service supporting Next.js applications.
 
 ## Future Enhancements
-
-- Integration with a backend API for real license valuation
-- User authentication and dashboard area
-- Enhanced chatbot with AI-powered responses
-- Multi-language support
-- Analytics dashboard for tracking user interactions
+- [] Enhanced chatbot with AI-powered responses
 
 ## License
 

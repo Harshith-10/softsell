@@ -2,9 +2,7 @@ import './globals.css';
 import type { Metadata } from 'next';
 import { Quicksand } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
-import { Toaster } from '@/components/ui/toaster';
 import { ChatbotProvider } from '@/components/chatbot/chatbot-provider';
-import { ScrollProgressIndicator } from '@/components/ui/scroll-progress-indicator';
 import { ScrollToTop } from '@/components/ui/scroll-to-top';
 
 const quicksand = Quicksand({ 
@@ -54,7 +52,6 @@ export default function RootLayout({
           {/* <ScrollProgressIndicator /> */}
           {children}
           <ScrollToTop />
-          <Toaster />
           <ChatbotProvider />
         </ThemeProvider>
       </body>
