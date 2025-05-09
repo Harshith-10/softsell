@@ -26,7 +26,7 @@ export function HeroSection() {
           transition={{ duration: 0.6 }}
           className="max-w-4xl"
         >
-          <span className="md:hidden px-2 py-1 text-secondary bg-primary rounded-full font-semibold text-xs tracking-tight">Visit the site in a Desktop to get the full experience!</span>
+          <span className="md:hidden px-2 py-1 text-secondary bg-primary rounded-full font-semibold text-xs tracking-tight">Visit the site in a Desktop device to get a complete experience!</span>
           <br className="md:hidden" /><br className="md:hidden" />
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4">
             <motion.span
